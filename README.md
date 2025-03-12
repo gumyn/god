@@ -13,9 +13,9 @@ This project is a Go application that utilizes Docker for containerization. Foll
 3. Init project
 4. Install dependencies
 ```bash
-git clone git clone https://github.com/gumyn/god.git
+git clone https://github.com/gumyn/god.git
 cd god
-docker run --rm -v "$(pwd)":/app -w /app golang:1.21-alpine go mod init
+docker run --rm -v "$(pwd)":/app -w /app golang:1.21-alpine go mod init mon-projet
 docker run --rm -v "$(pwd)":/app -w /app golang:1.21-alpine go mod tidy
 ```
 ## Setup
