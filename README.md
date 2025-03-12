@@ -22,3 +22,4 @@ docker-compose up
 ```
 
 ## You are ready to DEV with your machine clean
+Edit main.go and you'll see your changes
